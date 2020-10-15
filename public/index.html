@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/view/mainpage.css">
+	<script src="/src/script.js"></script>
+	<title>calculate-app</title>
+</head>
+<body>
+	<a id="anchor-section"></a>
+	<img class="calc-image" src="/src/image/unnamed (1).png" alt="image">
+
+<div class="grid-sections">
+<div class="menu-section">
+	<a href="/public/about.html" style="text-decoration:none;"><button class="calculate-button__about">Om oss</button></a>
+	<a href="/public/login.html" style="text-decoration:none;"><button class="calculate-button__login">Logga in</button></a>
+	<a href="/public/result.html" style="text-decoration:none;"><button class="calculate-button__cal">Resultat</button></a>
+</div>
+
+<div class="calc-form__grid">
+	<div class="calc-form__container">
+			<div class="calc-form">
+				<div class="calc-form__calculate-cal--prenumber left"></div>
+				<textarea rows="1" cols="80" name="number"></textarea>
+			</div>
+
+			<div class="calc-form">
+				<div class="calc-form__calculate-cal--prenumber right"></div>
+				<textarea rows="1" cols="80" name="number"></textarea>
+			</div>
+		</div>
+
+	<div class="calc-form__add-number">
+		<div class="calc-form__number">
+			<div class="calc-form__calculate-cal--prenumber left"></div>
+			<textarea rows="1" cols="70" name="number"></textarea>
+		</div>
+
+		<div class="calc-form__box">
+			<ul class="calc-form__calculate-lists">
+				<a href="calc-form__plus" class="adding"><li>+</li></a>
+				<a href="calc-form__minus" class="remove" ><li>-</li></a>
+				<a href="calc-form__multiply" class="multi"><li>*</li></a>
+				<a href="calc-form__divition" class="divide"><li>/</li></a>
+				<a href="calc-form__procent" class="procenting"><li>%</li></a>
+			</ul>
+		</div>
+
+		<div class="calc-form__number">
+			<div class="calc-form__calculate-cal--prenumber right"></div>
+				<textarea rows="1" cols="70" name="number"></textarea>
+		</div>
+	
+</div>
+</div>
+
+<a href="total" class="calc-form__total">=</a>
+
+		<div class="calc-form__calculate-cal--number-total"></div>
+
+		<button class="anchor-section__button"><a href="#anchor-section">Tillbaka upp</a></button>
+	
+</div>
+</body>
+</html>
